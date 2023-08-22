@@ -16,7 +16,7 @@ services:
       replicas: 3
 
   movie:
-    image: harshini756/movie:lates
+    image: harshini7569/movie:lates
     ports:
       - "98:80"
     deploy:
