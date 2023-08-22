@@ -1,32 +1,27 @@
 version: '3'
 services:
-  movies:
-    image: ramu478/aws
-    ports:
-      - "80:80"
-    deploy:
-      replicas: 3
-
-  train:
-    image: ramu478/devops
+  box
+    image:harshini7569/box:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
 
-  dth:
-    image: ramu478/azure
+  pen
+    image: harshini7569/pen:latest
+
     ports:
       - "82:80"
     deploy:
       replicas: 3
 
-  recharge:
-    image: ramu478/ds
+  movie:
+    image: harshini756/movie:lates
     ports:
       - "83:80"
     deploy:
       replicas: 3
+
 
 
  
